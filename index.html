@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED 显示屏选型</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>LED 显示屏选型</h1>
+    
+    <label for="usage">使用场景：</label>
+    <select id="usage">
+        <option value="室内全彩">室内全彩</option>
+        <option value="户外全彩">户外全彩</option>
+    </select>
+
+    <label for="distance">观看距离：</label>
+    <select id="distance">
+        <option value="2m-5m">2m-5m</option>
+        <option value="3m-6m">3m-6m</option>
+    </select>
+
+    <button onclick="filterProducts()">推荐产品</button>
+
+    <h2>推荐结果：</h2>
+    <ul id="result"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

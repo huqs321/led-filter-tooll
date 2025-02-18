@@ -1,0 +1,22 @@
+[
+  {
+    "id": "D2.5_TOP",
+    "name": "D2.5（TOP）",
+    "type": "室内全彩",
+    "pixel_pitch": 2.5,
+    "brightness": 1000,
+    "refresh_rate": 3840,
+    "best_viewing_distance": "2m-5m",
+    "price": 69.0
+  },
+  {
+    "id": "D3.076_TOP",
+    "name": "D3.076（TOP）",
+    "type": "室内全彩",
+    "pixel_pitch": 3.076,
+    "brightness": 1500,
+    "refresh_rate": 3840,
+    "best_viewing_distance": "3m-6m",
+    "price": 59.0
+  }
+]
